@@ -177,7 +177,7 @@ def predict_unseen(model, test_ds):
                                 target_names=test_ds.class_names))
     
 def main():
-    # Define paths
+    # Define paths -- REMOVE HARDCODED PATHS!
     train_data_dir = pathlib.Path("../DATA/PNG_RGB/merged")
     test_data_dir = pathlib.Path("../DATA/PNG_RGB/test")
     # Load data
